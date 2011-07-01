@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<cloudbees-web-app xmlns="http://www.cloudbees.com/xml/webapp/1">
+</cloudbees-web-app>
+<resource name="jdbc/mickey_test" auth="Container" type="javax.sql.DataSource">
+ <param name="username" value="mickey" />
+ <param name="password" value="tomato" />
+ <param name="url" value="jdbc:cloudbees://mickey_test" />
+</resource>
